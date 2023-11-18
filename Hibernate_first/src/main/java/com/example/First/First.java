@@ -41,7 +41,6 @@ public class First {
 
                         session.getTransaction().commit();
                         break;
-
                     case 2:
                         StudentEntity fr = new StudentEntity();
                         String jpql = "SELECT fe.studentId, fe.studentName, fe.branch FROM StudentEntity fe";

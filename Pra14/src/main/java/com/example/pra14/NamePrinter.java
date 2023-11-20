@@ -1,6 +1,7 @@
 package com.example.pra14;
 
-import jakarta.jws.*;
+import jakarta.jws.WebMethod;
+import jakarta.jws.WebService;
 import jakarta.jws.soap.SOAPBinding;
 
 @WebService

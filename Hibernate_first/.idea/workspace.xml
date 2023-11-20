@@ -4,7 +4,72 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a4c85cb-428d-4080-a57f-3c967e1e28d6" name="Changes" comment="" />
+    <list default="true" id="7a4c85cb-428d-4080-a57f-3c967e1e28d6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../HIberServel2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HIberServel2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HIberServel2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HIberServel2/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HIberServel2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HIberServel2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HIberServel2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HIberServel2/HIberServel2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra14/WEB-INF/conf/axis2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra14/src/main/java/META-INF/services.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra14/src/main/java/com/example/pra14/NamePrinter.wsdl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra14/src/main/java/mypackage/NamePrinter.wsdl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra3/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra3/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra3/src/main/java/com/example/pra3/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra3/src/main/java/com/example/pra3/StudentEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra3/src/main/resources/StudentEntity.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra3/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra3/src/main/webapp/WEB-INF/lib/mysql-connector-java-8.0.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra3/src/main/webapp/stdinfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra3/src/test/java/com/mysql/cj/jdbc/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra4/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra4/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra4/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra4/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra4/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra4/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra4/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra4/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra4/src/main/java/com/example/pra4/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra4/src/main/java/com/example/pra4/EmployeeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra4/src/main/java/com/example/pra4/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra4/src/main/resources/EmployeeEntity.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra4/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra4/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra4/src/main/webapp/WEB-INF/lib/mysql-connector-java-8.0.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra4/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra4/src/main/webapp/empinfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pra4/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tempp1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tempp1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tempp1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tempp1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pra-14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pra-14/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pra-14/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pra-14/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pra14/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Pra14/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pra14/.idea/artifacts/Pra14_Web2_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pra14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pra14/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pra14/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Pra14/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pra14/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../Pra14/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pra14/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Pra14/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pra14/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pra14/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pra14/src/main/java/com/example/pra14/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pra14/src/main/java/com/example/pra14/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pra14/src/main/java/com/example/pra14/NamePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pra14/src/main/java/com/example/pra14/NamePrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pra14/src/main/java/com/example/pra14/NamePrinterPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pra14/src/main/java/com/example/pra14/NamePrinterPublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pra14/src/main/webapp/WEB-INF/conf/axis2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pra14/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pra14/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pra14/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Pra14/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,6 +149,8 @@
       <workItem from="1699408776901" duration="516000" />
       <workItem from="1700276114150" duration="4343000" />
       <workItem from="1700309261731" duration="55000" />
+      <workItem from="1700457629138" duration="4166000" />
+      <workItem from="1700462551425" duration="895000" />
     </task>
     <servers />
   </component>

@@ -42,21 +42,10 @@ public class Student {
                         session.getTransaction().commit();
                         break;
                     case 2:
-                        StudentEntity fr = new StudentEntity();
-                        String jpql = "SELECT fe.studentId, fe.studentName, fe.branch FROM StudentEntity fe";
-                        Query query = session.createQuery(jpql);
-                        List<Object[]> results = query.getResultList();
-
-                        System.out.println("------------------------");
-                        System.out.println("| id | name | branch");
-
-                        for (Object[] result : results) {
-                            int id = (int) result[0];
-                            String name = (String) result[1];
-                            String branch = (String) result[2];
-                            System.out.printf("| %d | %s | %s |\n", id, name, branch);
+                        List<StudentEntity> studentInfos = session.createQuery("from StudentEntity", StudentEntity.class).list();
+                        for (StudentEntity std: studentInfos) {
+                            System.out.printf("| %d | %s | %s |\n", std.getStudentId(), std.getStudentName(), std.getBranch());
                         }
-                        System.out.println("------------------------");
                         break;
 
                     default:

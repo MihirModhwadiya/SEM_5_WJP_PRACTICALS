@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ns="http://pra14.example.com" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://org.apache.axis2/xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" targetNamespace="http://pra14.example.com">
+    <wsdl:types>
+        <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://pra14.example.com">
+            <xs:element name="printName">
+                <xs:complexType>
+                    <xs:sequence/>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="printNameResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:schema>
+    </wsdl:types>
+    <wsdl:message name="printNameRequest">
+        <wsdl:part name="parameters" element="ns:printName"/>
+    </wsdl:message>
+    <wsdl:message name="printNameResponse">
+        <wsdl:part name="parameters" element="ns:printNameResponse"/>
+    </wsdl:message>
+    <wsdl:portType name="NamePrinterPortType">
+        <wsdl:operation name="printName">
+            <wsdl:input message="ns:printNameRequest" wsaw:Action="urn:printName"/>
+            <wsdl:output message="ns:printNameResponse" wsaw:Action="urn:printNameResponse"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="NamePrinterSoap11Binding" type="ns:NamePrinterPortType">
+        <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc"/>
+        <wsdl:operation name="printName">
+            <soap:operation soapAction="urn:printName" style="rpc"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:binding name="NamePrinterSoap12Binding" type="ns:NamePrinterPortType">
+        <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc"/>
+        <wsdl:operation name="printName">
+            <soap12:operation soapAction="urn:printName" style="rpc"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:binding name="NamePrinterHttpBinding" type="ns:NamePrinterPortType">
+        <http:binding verb="POST"/>
+        <wsdl:operation name="printName">
+            <http:operation location="printName"/>
+            <wsdl:input>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="NamePrinter">
+        <wsdl:port name="NamePrinterHttpSoap11Endpoint" binding="ns:NamePrinterSoap11Binding">
+            <soap:address location="http://localhost:8088//services/com/example/pra14/NamePrinter"/>
+        </wsdl:port>
+        <wsdl:port name="NamePrinterHttpSoap12Endpoint" binding="ns:NamePrinterSoap12Binding">
+            <soap12:address location="http://localhost:8088//services/com/example/pra14/NamePrinter"/>
+        </wsdl:port>
+        <wsdl:port name="NamePrinterHttpEndpoint" binding="ns:NamePrinterHttpBinding">
+            <http:address location="http://localhost:8088//services/com/example/pra14/NamePrinter"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>
